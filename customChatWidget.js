@@ -290,6 +290,7 @@
             cursor: pointer;
             width: 48px;
         }
+        
     `;
     
     // Inject styles
@@ -308,6 +309,10 @@
             name: '',
             welcomeText: '',
             responseTimeText: '',
+            poweredBy: {
+                text: '',
+                link: ''
+            }
         },
         style: {
             primaryColor: '',
@@ -380,6 +385,9 @@
             <div class="chat-input">
                 <textarea placeholder="Skriv ditt meddelande här..." rows="1"></textarea>
                 <button type="submit">Skicka</button>
+            </div>
+            <div class="chat-footer">
+                <a href="${config.branding.poweredBy.link}" target="_blank">${config.branding.poweredBy.text}</a>
             </div>
         </div>
     `;
