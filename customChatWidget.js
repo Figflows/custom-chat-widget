@@ -284,7 +284,7 @@
         }
         .clear-history-btn {
             display: flex;
-            background-color: transparent;
+            background-color: transparent !important;
             border: none;
             padding: 8px 12px;
             cursor: pointer;
