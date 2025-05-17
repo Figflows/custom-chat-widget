@@ -15,7 +15,8 @@
             right: 20px;
             z-index: 1000;
             display: none;
-            width: 380px;
+            width: 90%;
+            max-width: 380px;
             height: 600px;
             background: var(--chat--color-background);
             border-radius: 12px;
